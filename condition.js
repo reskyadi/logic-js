@@ -1,4 +1,4 @@
-const a = true;
+const a = false;
 const b = true;
 if (a) {
 	console.log("Ini if kondisi pertama");
@@ -15,3 +15,11 @@ console.log(c === "1");
 
 // One line codition, memakai ? yg menghasilkan true dan false yg dibatasi dengan :
 console.log(c === "1" ? "ini true" : "ini false");
+
+
+// && ||
+if (a || b) {
+	console.log("berhasil");
+} else {
+	console.log("gagal");
+}
