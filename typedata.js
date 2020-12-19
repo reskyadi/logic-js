@@ -22,10 +22,13 @@ const objectVar = {
 	name: "Ini Object Var"
 };
 console.log(objectVar);
+// Cara panggil object
+console.log(objectVar.name);
 
 // Array, data variabel nya bisa banya dan di buka dan di tutup [ ]
 const arr = [1, 2, 3, "1", "2", "3"];
 console.log(arr);
+console.log(arr[2], "Ini ambil data array index 2");
 
 // Array of object, variabel yg memiliki banyak object
 const arrOfObject = [
